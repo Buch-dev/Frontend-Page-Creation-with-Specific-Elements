@@ -49,7 +49,7 @@ function myTrack() {
 // Function to update my github link
 function githubURL() {
   const githubURL = document.querySelector('[data-testid="githubURL"]');
-  githubURL.href = "#";
+  githubURL.href = "https://github.com/Buch-dev/Frontend-Page-Creation-with-Specific-Elements.git";
 }
 
 // Call the update functions when the page loads
