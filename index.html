@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HNGX First Task</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1>Personal and Real-time Data Attributes</h1>
+        <div class="data name">
+          <label for="name">Slack Name:</label>
+          <span id="name" data-testid="slackUserName"></span>
+        </div>
+        <div class="data img">
+          <label for="display-picture">Slack Display Picture:</label>
+          <img data-testid="slackDisplayImage" id="display-picture" />
+        </div>
+        <div class="data day">
+          <label for="day">Current Day of the Week:</label>
+          <span data-testid="currentDayOfTheWeek"></span>
+        </div>
+        <div class="data UTC">
+          <label for="UTC">Current UTC Time:</label>
+          <span data-testid="currentUTCTime"></span>
+        </div>
+        <div class="data track">
+          <label for="track">Track:</label>
+          <span data-testid="myTrack"></span>
+        </div>
+        <div class="data URL">
+          <label for="URL">GitHub URL:</label>
+          <a data-testid="githubURL">GitHub URL</a>
+        </div>
+    </div>
+  </body>
+</html>
