@@ -30,6 +30,11 @@ h1 {
     text-align: center;
 }
 
+.plan {
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
 .name {
     font-size: 2rem;
     margin-top: 1rem;
