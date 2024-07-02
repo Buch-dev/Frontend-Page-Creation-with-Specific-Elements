@@ -61,6 +61,7 @@ function githubURL() {
 // Call the update functions when the page loads
 window.onload = function () {
   slackUsername();
+  slackEmail();
   slackDisplayImage();
   updateDayOfWeek();
   updateUTCTime();
