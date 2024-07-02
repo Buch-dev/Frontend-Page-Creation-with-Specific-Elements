@@ -1,13 +1,13 @@
 // Function to update slack username
 function slackUsername() {
-  const slackUsername = document.querySelector('[data-testid="slackUserName"]');
+  const slackUsername = document.querySelector('[data-testid="slackDisplayName"]');
   slackUsername.textContent = "Daniel Okafor";
 }
 
 // Function to update slack display image
 function slackDisplayImage() {
   const slackDisplayImage = document.querySelector(
-    '[data-testid="slackDisplayImage"]'
+    '[data-testid="slackProfilePicture"]'
   );
   slackDisplayImage.src = "./img/IMG-20230908-WA0000.jpg";
   slackDisplayImage.alt = "Buchman";
@@ -27,7 +27,7 @@ function updateDayOfWeek() {
   const currentDate = new Date();
   const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
   const dayElement = document.querySelector(
-    '[data-testid="currentDayOfTheWeek"]'
+    '[data-testid="currentDay"]'
   );
   dayElement.textContent = dayOfWeek;
 }
@@ -36,7 +36,7 @@ function updateDayOfWeek() {
 function updateUTCTime() {
   const currentDate = new Date();
   const timeString = currentDate.toUTCString();
-  const timeElement = document.querySelector('[data-testid="currentUTCTime"]');
+  const timeElement = document.querySelector('[data-testid="currentTimeUTC"]');
   timeElement.textContent = timeString;
 }
 
