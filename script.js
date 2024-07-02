@@ -4,6 +4,12 @@ function slackUsername() {
   slackUsername.textContent = "Daniel Okafor";
 }
 
+// Function to update slack email 
+function slackEmail() {
+  const slackEmail = document.querySelector('[data-testid="slackEmail"]');
+  slackTrack.textContent = "bucheed@gmail.com";
+}
+
 // Function to update slack display image
 function slackDisplayImage() {
   const slackDisplayImage = document.querySelector(
