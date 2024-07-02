@@ -12,7 +12,7 @@
         <h1>Personal and Real-time Data Attributes</h1>
         <div class="data name">
           <label for="name">Slack Name:</label>
-          <span id="name" data-testid="slackUserName"></span>
+          <span id="name" data-testid="slackDisplayName"></span>
         </div>
         <div class="data img">
           <label for="display-picture">Slack Display Picture:</label>
@@ -24,11 +24,15 @@
         </div>
         <div class="data day">
           <label for="day">Current Day of the Week:</label>
-          <span data-testid="currentDayOfTheWeek"></span>
+          <span data-testid="currentDay"></span>
         </div>
         <div class="data UTC">
           <label for="UTC">Current UTC Time:</label>
-          <span data-testid="currentUTCTime"></span>
+          <span data-testid="currenTimeUTC"></span>
+        </div>
+      <div class="data email">
+          <label for="email">Email:</label>
+          <span data-testid=slackEmail"></span>
         </div>
         <div class="data track">
           <label for="track">Track:</label>
@@ -36,15 +40,15 @@
         </div>
         <div class="data URL">
           <label for="URL">GitHub URL:</label>
-          <a data-testid="githubURL">GitHub URL</a>
+          <a href=”” data-testid="githubURL">GitHub URL</a>
         </div>
-      <div class="hng-link">
+      <div class="hng-link data">
         <a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
     </div>
-      <div class="hng-link">
+      <div class="hng-link data">
         <a href="https://keyword.dog" data-testid="keywordLink">Keyword</a>
     </div>
-      <div class="hng-link">
+      <div class="hng-link data">
         <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">HNG Learn</a>
     </div>
   </body>
